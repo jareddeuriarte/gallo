@@ -7,13 +7,27 @@
 
 
 /* HEADER  */
-
-#name{
+h1{
     font-family: Commune;
     text-align: center;
     font-size: 5em;
 }
 
+
+
+/* BIO */
+#bio-wrapper h2{
+font-family: Commune;
+text-decoration: underline #86a63d;
+}
+
 p{
     font-family: futura-pt, sans-serif;
+}
+
+#headshot{
+    max-height: 17em;
+    /* width: auto; */
+    padding: 1em;
+
 }
