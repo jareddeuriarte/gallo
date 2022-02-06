@@ -1,8 +1,12 @@
+/* IMPORTED FONTS */
+
 @font-face {
     font-family: "Commune";
     src: url("/Users/jareddeuriarte/Desktop/gallo/assets/fonts/commune-webfont.woff") format('woff');
 }
 
+
+/* HEADER  */
 
 #name{
     font-family: Commune;
@@ -11,5 +15,5 @@
 }
 
 p{
- font-family: futura-pt;
+    font-family: futura-pt, sans-serif;
 }
