@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Commune";
+    src: url("/Users/jareddeuriarte/Desktop/gallo/assets/fonts/commune-webfont.woff") format('woff');
+}
+
+
+#name{
+    font-family: Commune;
+    text-align: center;
+    font-size: 5em;
+}
+
+p{
+ font-family: futura-pt;
+}
