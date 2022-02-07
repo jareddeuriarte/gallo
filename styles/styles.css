@@ -13,9 +13,34 @@ h1{
     font-size: 5em;
 }
 
+/* NAV */
 
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.sidebar {
+    position: sticky;
+    top: 0;
+  }
+      
 
 /* BIO */
+
+#bio-wrapper{
+    display: flex;
+    padding-left: 20em;
+    padding-right: 20em;
+}
+
+#bio-details{
+    display: flex;
+    flex-direction: column;
+}
+
 #bio-wrapper h2{
 font-family: Commune;
 text-decoration: underline #86a63d;
@@ -25,9 +50,15 @@ p{
     font-family: futura-pt, sans-serif;
 }
 
+a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  font-family: futura-pt, sans-serif;
+}
+
+
 #headshot{
     max-height: 17em;
     /* width: auto; */
     padding: 1em;
-
 }
