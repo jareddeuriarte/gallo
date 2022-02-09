@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Commune";
-    src: url("/Users/jareddeuriarte/Desktop/gallo/assets/fonts/commune-webfont.woff") format('woff');
+    src: url("assets/fonts/commune-webfont.woff") format('woff');
 }
 
 
@@ -68,6 +68,7 @@ nav{
 .sidebar {
     position: sticky;
     top: 50vh;
+    width: max-content;
   }
       
 .sidebar img{
