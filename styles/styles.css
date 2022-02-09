@@ -2,12 +2,11 @@
 
 @font-face {
     font-family: "Commune";
-    src: url("/assets/fonts/commune-webfont.woff") format('woff');
+    src: url("/Users/jareddeuriarte/Desktop/gallo/assets/fonts/commune-webfont.woff") format('woff');
 }
 
 
 /* SPLASH */
-
 .splash{
     position: fixed;
     top: 0;
