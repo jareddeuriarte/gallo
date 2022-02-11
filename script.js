@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     console.log('loaded')
     setTimeout(() => {
         splash.classList.add('display-none');
-    }, 10000);
+    }, 3000);
 
 
 })
