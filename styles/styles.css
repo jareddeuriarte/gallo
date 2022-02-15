@@ -8,15 +8,32 @@
 
 /* SPLASH */
 .splash{
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     height:100vh;
     background-color: #d5e4b2;
-    z-index: 200;
+    /* z-index: 200; */
 
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+.splash a{
+
+    color: #6dd4b1;
+    /* transition: all 0.2s linear; */
+    }
+
+    a:hover, a:focus {
+        color: #357099;
+        
+
+}
+
 
 /* .splash.display-none{
     position: fixed;
