@@ -2,8 +2,12 @@
 
 @font-face {
     font-family: "Commune";
-    src: url("/Users/jareddeuriarte/Desktop/gallo/assets/fonts/commune-webfont.woff") format('woff');
+    src: url("assets/fonts/commune-webfont.woff") format('woff');
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 
 /* SPLASH */
@@ -18,18 +22,16 @@
 
 }
 
-html {
-    scroll-behavior: smooth;
-  }
-  
+
+
 .splash a{
 
-    color: #6dd4b1;
-    /* transition: all 0.2s linear; */
+    color: #000000;
+    transition: all 0.2s linear;
     }
 
     a:hover, a:focus {
-        color: #357099;
+        color: #ffffff;
         
 
 }

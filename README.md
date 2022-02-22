@@ -8,3 +8,6 @@ https://gist.github.com/richardscarrott/6457438
 
 maybe
 https://stackoverflow.com/questions/28316497/are-there-any-methods-to-implement-page-transitions-when-using-a-href
+
+
+https://www.youtube.com/watch?v=eVwH3VL1EsA
