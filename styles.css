@@ -24,18 +24,6 @@ html {
 
 
 
-.splash a{
-
-    color: #000000;
-    transition: all 0.2s linear;
-    }
-
-    a:hover, a:focus {
-        color: #ffffff;
-        
-
-}
-
 
 /* .splash.display-none{
     position: fixed;
