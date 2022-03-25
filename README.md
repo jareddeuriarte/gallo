@@ -11,3 +11,9 @@ https://stackoverflow.com/questions/28316497/are-there-any-methods-to-implement-
 
 
 https://www.youtube.com/watch?v=eVwH3VL1EsA
+
+
+
+https://www.youtube.com/watch?v=emEDKUkK04Y
+
+https://codingwithnick.in/responsive-image-slider-using-html-css-javascript/

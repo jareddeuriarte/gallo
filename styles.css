@@ -240,3 +240,30 @@ a{
 
 
 }
+
+
+
+
+
+/* SLICK SLIDER  */
+
+
+
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.active{
+    max-width: 5em;
+
+}
+
+.slider-img{
+    max-width: 2rem;
+
+}
