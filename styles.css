@@ -12,31 +12,10 @@ html {
 
 /* SPLASH */
 .splash{
-    /* position: fixed;
-    top: 0;
-    left: 0; */
     width: 100%;
     height:100vh;
     background-color: #d5e4b2;
-    /* z-index: 200; */
-
 }
-
-
-
-
-/* .splash.display-none{
-    position: fixed;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100vh;
-    background-color: #d5e4b2;
-    z-index: -10;
-    transition: all 1s;
-
-} */
 
 .splash h1{
     color: white;
@@ -55,19 +34,6 @@ html {
 
 }
 
-
-/* WITH BTTN CLICK OPTION */
-
-/* .box-transition.box-hidden {
-	display: block;
-	opacity: 0;
-}
-.box-transition {
-	transition: opacity 1s ease;
-} */
-
-
-
 /* HEADER  */
 h1{
     font-family: Commune;
@@ -76,7 +42,6 @@ h1{
 }
 
 /* NAV */
-
 .nav-flex{
     display: flex;
     flex-direction: column;
@@ -98,10 +63,7 @@ h1{
     
 }
 
-
-
 /* BIO */
-
 #bio-wrapper{
     display: flex;
     padding-left: 20em;
@@ -128,7 +90,6 @@ a{
   font-family: futura-pt, sans-serif;
 }
 
-
 #headshot{
     max-height: 17em;
     /* width: auto; */
@@ -137,13 +98,18 @@ a{
 
 
 /* DM */
+.total-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
 
 #dm-flex-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 
 #dm-grid{
     display: grid;
@@ -153,8 +119,6 @@ a{
     column-gap: 1em;
     grid-template-columns: repeat(3, 1fr); 
 }
-
-
 
 .dm-card{ 
     display: flex;
@@ -177,9 +141,7 @@ a{
 
 
 
-
 /* PHOTO */
-
 #photo-flex-container{
     display: flex;
     justify-content: center;
@@ -201,7 +163,6 @@ a{
 
 
 /* SOCIAL */
-
 #social-flex-container{
     display: flex;
     flex-direction: row;
@@ -245,25 +206,109 @@ a{
 
 
 
-/* SLICK SLIDER  */
 
 
 
 
-.carousel{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
 
+/* Slideshow container */
 
-.active{
-    max-width: 5em;
-
-}
-
-.slider-img{
-    max-width: 2rem;
-
-}
+.slideshow-container {
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  .dot{
+   height: 10px;
+    width: 10px;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .prev, .next,.text {font-size: 14px}
+  }
