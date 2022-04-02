@@ -63,6 +63,13 @@ h1{
     
 }
 
+
+
+
+
+
+
+
 /* BIO */
 #bio-wrapper{
     display: flex;
@@ -205,13 +212,6 @@ a{
 
 
 
-
-
-
-
-
-
-
 /* Slideshow container */
 
 .slideshow-container {
@@ -312,3 +312,10 @@ a{
   @media only screen and (max-width: 500px) {
     .prev, .next,.text {font-size: 14px}
   }
+
+
+
+
+
+
+
