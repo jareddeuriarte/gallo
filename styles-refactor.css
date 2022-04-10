@@ -53,7 +53,12 @@
     font-family: Commune;
     text-align: center;
     font-size: 5em;
+    text-decoration: underline;
+    text-decoration-color: rgb(246, 173, 66);
 }
+
+
+
 
 
 /* ABOUT */
@@ -123,7 +128,7 @@
 
 /* PHOTO */
 
-.main #photoFlex{
+#photoFlex{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -135,4 +140,35 @@
     max-width: 3rem;
     padding: 10rem;
 
+}
+
+
+.photo-grid{
+    max-width: 24rem;
+    padding:1rem;
+}
+
+
+
+
+/* SOCIAL */
+
+#socialFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#socialFlex img{
+    max-width: 3rem;
+    padding: 10rem;
+
+}
+
+
+.photo-grid{
+    max-width: 24rem;
+    padding:1rem;
 }
