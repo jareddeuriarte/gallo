@@ -107,6 +107,7 @@
     padding: 3rem;
 }
 
+
 #dmFlex{
     display: flex;
     flex-direction: row;
@@ -136,13 +137,6 @@
 
 }
 
-#photoFlex img{
-    max-width: 3rem;
-    padding: 10rem;
-
-}
-
-
 .photo-grid{
     max-width: 24rem;
     padding:1rem;
@@ -158,17 +152,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
-}
-
-#socialFlex img{
-    max-width: 3rem;
-    padding: 10rem;
-
 }
 
 
-.photo-grid{
+.social-photo{
     max-width: 24rem;
-    padding:1rem;
+    padding: 1rem;
+
+
 }
