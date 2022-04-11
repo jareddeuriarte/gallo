@@ -70,7 +70,9 @@
     justify-content: space-evenly;
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-top: 10rem;
     align-items: center;
+    
 }
 
 #bioDetails{
