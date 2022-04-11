@@ -46,7 +46,7 @@
 
 .main{
     margin-left: 160px; /* Same as the width of the sidenav */
-
+    height: 100vh;
 }
 
 .main h1{
@@ -157,6 +157,38 @@
 
 .social-photo{
     max-width: 24rem;
+    padding: 1rem;
+
+
+}
+
+
+
+
+/* CONTACT */
+
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    /* position: sticky;
+    bottom: 10px; */
+
+}
+
+
+#contact div a {
+    color: inherit;
+    text-decoration: inherit;
+    font-family: futura-pt, sans-serif;
+   
+}
+
+
+#contact div{
     padding: 1rem;
 
 
