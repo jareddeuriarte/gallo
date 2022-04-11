@@ -5,6 +5,53 @@
     src: url("assets/fonts/commune-webfont.woff") format('woff');
 }
 
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* SPLASH */
+.splash{
+    width: 100%;
+    height:100vh;
+    background-color: #d5e4b2;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.splash-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.splash-flex img{
+    max-width: 30rem;
+}
+
+
+.splash-flex a{
+    color: #fff;
+    text-decoration: inherit; 
+    font-family: futura-pt, sans-serif;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+
+.splash-flex a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(246, 173, 66);
+
+
+}
+
+
 /* SIDE NAV */
 
 .sidenav {
