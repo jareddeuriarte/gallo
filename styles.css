@@ -75,11 +75,14 @@ html {
 
 
 
+
+
 .navFlex a{
     color: inherit;
     text-decoration: inherit; 
     font-family: futura-pt, sans-serif;
     padding-top: 0.5rem;
+    margin: 2em;
     text-align: center;
   }
 
@@ -92,7 +95,6 @@ html {
 /* MAIN */
 
 .main{
-    margin-left: 160px; /* Same as the width of the sidenav */
     height: 100vh;
 }
 
@@ -112,15 +114,13 @@ html {
 
 .bioFlex{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 10rem;
+    margin-top: 2em;
+
     align-items: center;
     
 }
+
+
 
 #bioDetails{
     display: flex;
@@ -134,7 +134,7 @@ html {
 }
 
 #headshot{
-    max-width: 21em;
+    max-width: 25em;
     width: auto;
     padding: 1em;
 }
@@ -248,5 +248,81 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 9em;
+
+}
+
+
+
+
+
+
+
+/* ipad Mini Portrait */
+@media only screen and (max-width:768px)  {
+
+
+    .bioFlex{
+        display: flex;
+
+        justify-content: center;
+        
+    }
+
+
+    .navFlex a{
+        color: inherit;
+        text-decoration: inherit; 
+        font-family: futura-pt, sans-serif;
+        padding-top: 0.5rem;
+        margin: .5em;
+        text-align: center;
+      }
+
+}
+
+/* ipad Mini Landscape */
+@media only screen and (width:1024px)  {
+
+
+
+    .bioFlex{
+        display: flex;
+
+        justify-content: center;
+    }
+}
+
+
+
+@media only screen and (max-width:414px)  {
+
+
+    .bioFlex{
+        display: flex;
+
+        justify-content: center;
+     
+
+    }
+
+
+    #headshot{
+        max-width: 11em;
+        width: auto;
+        padding: 1em;
+    }
+    
+
+
+    .navFlex a{
+        font-size: 62%;
+        color: inherit;
+        text-decoration: inherit;
+        font-family: futura-pt, sans-serif;
+        padding-top: 0.5rem;
+        margin: 0.5em;
+        text-align: center;
+      }
 
 }
