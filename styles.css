@@ -342,4 +342,8 @@ html {
         text-align: center;
       }
 
+      .splash-flex img {
+        max-width: 22rem;
+    }
+
 }
