@@ -55,7 +55,7 @@ html {
 
 /* SIDE NAV */
 
-.sidenav {
+.sidenav-old {
     height: 100%;
     width: 160px;
     position: fixed;
@@ -68,13 +68,12 @@ html {
 
   }
 
-  .navFlex{
+  .sidenav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content:center:
+    justify-content: center;
+  }
 
-}
+
 
 .navFlex a{
     color: inherit;
@@ -241,5 +240,13 @@ html {
 #contact div{
     padding: 1rem;
 
+
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
