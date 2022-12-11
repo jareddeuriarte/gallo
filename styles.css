@@ -114,8 +114,8 @@ html {
 
 .bioFlex{
     display: flex;
-    margin-top: 2em;
-
+    margin-top: 8em;
+    justify-content: center;
     align-items: center;
     
 }
