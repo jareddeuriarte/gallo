@@ -296,6 +296,20 @@ html {
 
 
 
+
+
+@media only screen and (max-width:844px)  {
+
+    .navFlex a{
+        color: inherit;
+        text-decoration: inherit;
+        font-family: futura-pt, sans-serif;
+        padding-top: 0.5rem;
+        margin: 1em;
+        text-align: center;
+      }
+}
+
 @media only screen and (max-width:414px)  {
 
 
