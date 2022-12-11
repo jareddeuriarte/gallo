@@ -163,14 +163,16 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top:7em;
 }
 
-.dmCard{ 
+/* .dmCard{ 
     display: flex;
     flex-direction: column;
     max-width: 24rem;
     padding: 1rem;
-}
+
+} */
 
 /* .dm-card p{ 
     text-align: justify;
