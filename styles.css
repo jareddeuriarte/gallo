@@ -149,11 +149,12 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 7em;
 }
 
 .flexChild{
-    max-width: 38rem;
-    padding: 3rem;
+    max-width: 50rem;
+    padding: 1rem;
 }
 
 
